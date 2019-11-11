@@ -19,7 +19,7 @@ $ yarn @falieson/js-second
 
 ## imports
 
-### get a year a mount of seconds
+### get a year amount of seconds
 
 ```js
 import time from "@falieson/js-second"
@@ -31,7 +31,7 @@ import {second} from "@falieson/js-second"
 console.log(second.year) // 31536000
 ```
 
-### get a year a mount of milliseconds
+### get a year amount of milliseconds
 
 ```js
 import time from "@falieson/js-second"
