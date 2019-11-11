@@ -15,6 +15,7 @@ $ yarn @falieson/js-second
 ## Aliases
 
 `second` - s, sec, seconds
+
 `millisecond` - ms, msec, milliseconds
 
 ## imports
