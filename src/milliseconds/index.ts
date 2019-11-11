@@ -17,3 +17,25 @@ export const month = 2592000000;
 export const quarterYear = 7862400000;
 export const halfYear = 15724800000;
 export const year = 31536000000;
+
+export default {
+    unit,
+    quarterMinute,
+    halfMinute,
+    minute,
+    doubleMinute,
+    fiveMinute,
+    quarterHour,
+    halfHour,
+    hour,
+    quarterDay,
+    halfDay,
+    day,
+    week,
+    doubleWeek,
+    halfMonth,
+    month,
+    quarterYear,
+    halfYear,
+    year,
+}

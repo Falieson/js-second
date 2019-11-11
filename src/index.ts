@@ -26,3 +26,7 @@ export const r2gSmokeTest = async () => {
   const v = await seconds.unit;
   return v === 1;
 }
+export default {
+  second,
+  millisecond,
+}

@@ -1,16 +1,18 @@
 {
   "name": "@falieson/js-second",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tired of repeating common ms and second calculations in most projects? Centralize and harden these ideas with a repo!",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "typings": "build/index.d.ts",
   "scripts": {
+    "prepush": "r2g test",
     "test": "node test/simple.js"
   },
   "devDependencies": {
     "@types/core-js": "^2.5.2",
     "@types/node": "^12.12.7",
+    "husky": "^3.0.9",
     "r2g": "^0.1.202",
     "tsc": "^1.20150623.0"
   },
