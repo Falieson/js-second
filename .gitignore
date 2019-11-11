@@ -1,0 +1,7 @@
+# IDE
+.vscode
+
+# Repo
+.ts
+build/
+node_modules/

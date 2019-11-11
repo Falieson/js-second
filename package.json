@@ -1,0 +1,33 @@
+{
+  "name": "@falieson/js-second",
+  "version": "1.0.0",
+  "description": "Tired of repeating common ms and second calculations in most projects? Centralize and harden these ideas with a repo!",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "test": "node test/simple.js"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.2",
+    "@types/node": "^12.12.7",
+    "r2g": "^0.1.202",
+    "tsc": "^1.20150623.0"
+  },
+  "author": "Florian Mettetal <florian.mettetal@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falieson/js-second.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falieson/js-second/issues"
+  },
+  "homepage": "https://github.com/Falieson/js-second#readme",
+  "keywords": [
+    "time",
+    "seconds",
+    "milliseconds",
+    "falieson"
+  ]
+}
