@@ -1,4 +1,5 @@
 export const unit = 1;
+export const second = 1;
 export const quarterMinute = 15;
 export const halfMinute = 30;
 export const minute = 60;
@@ -20,6 +21,7 @@ export const year = 31536000;
 
 export default {
     unit,
+    second,
     quarterMinute,
     halfMinute,
     minute,

@@ -20,14 +20,14 @@ process.on('unhandledRejection', (reason, p) => {
 // local / project
 const pkg = require('@falieson/js-second');
 const {
-  s,
-  sec,
-  second,
-  seconds,
+  ms,
+  msec,
+  millisecond,
+  milliseconds,
 } = require('@falieson/js-second');
 
-assert.strictEqual(pkg.second.unit, 1, "1 second")
-assert.strictEqual(s.unit, 1, "1 second")
-assert.strictEqual(sec.unit, 1, "1 second")
-assert.strictEqual(second.unit, 1, "1 second")
-assert.strictEqual(seconds.unit, 1, "1 second")
+assert.strictEqual(pkg.millisecond.second, 1000, "1 second")
+assert.strictEqual(ms.second, 1000, "1 second")
+assert.strictEqual(msec.second, 1000, "1 second")
+assert.strictEqual(millisecond.second, 1000, "1 second")
+assert.strictEqual(milliseconds.second, 1000, "1 second")

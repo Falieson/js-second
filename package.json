@@ -1,12 +1,13 @@
 {
   "name": "@falieson/js-second",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Tired of repeating common ms and second calculations in most projects? Centralize and harden these ideas with a repo!",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "typings": "build/index.d.ts",
   "scripts": {
     "build": "npx tsc",
+    "build:watch": "npx tsc --watch",
     "prepush": "npm-run-all -s build test:smoke",
     "test": "node test/simple.js",
     "test:smoke": "npx r2g test"

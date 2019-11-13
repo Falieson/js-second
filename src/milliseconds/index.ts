@@ -1,4 +1,5 @@
-export const unit = 1000;
+export const unit = 1;
+export const second = 1000;
 export const quarterMinute = 15000;
 export const halfMinute = 30000;
 export const minute = 60000;

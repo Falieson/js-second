@@ -23,10 +23,17 @@ const {second, millisecond} = require('@falieson/js-second');
 
 // unit
 assert.strictEqual(pkg.second.unit, 1, "1 second")
-assert.strictEqual(pkg.millisecond.unit, 1000, "1 second")
-
 assert.strictEqual(second.unit, 1, "1 second")
-assert.strictEqual(millisecond.unit, 1000, "1 second")
+
+assert.strictEqual(pkg.millisecond.unit, 1, "1 millisecond")
+assert.strictEqual(millisecond.unit, 1, "1 millisecond")
+
+// second
+assert.strictEqual(pkg.second.second, 1, "1 second")
+assert.strictEqual(pkg.millisecond.second, 1000, "1 second")
+
+assert.strictEqual(second.second, 1, "1 second")
+assert.strictEqual(millisecond.second, 1000, "1 second")
 
 // year
 assert.strictEqual(pkg.second.year, 31536000, "1 year")

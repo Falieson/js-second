@@ -48,7 +48,8 @@ console.log(millisecond.year) // 31536000000
 
 | Alias         | second   | millisecond | Description |
 |---------------|----------|-------------|-------------|
-| unit          | 1        | 1000        |             |
+| unit          | 1        | 1           | 1 unit of   |
+| second        | 1        | 1000        | 1 sec       |
 | quarterMinute | 15       | 15000       | 15 sec      |
 | halfMinute    | 30       | 30000       | 30 sec      |
 | minute        | 60       | 60000       | 60 sec      |
