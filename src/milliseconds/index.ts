@@ -21,6 +21,7 @@ export const year = 31536000000;
 
 export default {
     unit,
+    second,
     quarterMinute,
     halfMinute,
     minute,
