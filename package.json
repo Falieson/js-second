@@ -8,9 +8,14 @@
   "scripts": {
     "build": "npx tsc",
     "build:watch": "npx tsc --watch",
-    "prepush": "npm-run-all -s build test:smoke",
     "test": "node test/simple.js",
     "test:smoke": "npx r2g test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm-run-all build",
+      "pre-push": "npm-run-all -s build -p test:smoke"
+    }
   },
   "devDependencies": {
     "@types/core-js": "^2.5.2",
