@@ -11,6 +11,7 @@ const assert = require('assert');
 // project
 const pkg = require('@falieson/js-second');
 assert.strictEqual(pkg.second.unit, 1, "1 second")
+assert.strictEqual(pkg.second.second, 1, "1 second")
 
 // project another way
 const {
@@ -23,3 +24,8 @@ assert.strictEqual(s.unit, 1, "1 second")
 assert.strictEqual(sec.unit, 1, "1 second")
 assert.strictEqual(second.unit, 1, "1 second")
 assert.strictEqual(seconds.unit, 1, "1 second")
+
+assert.strictEqual(s.second, 1, "1 second")
+assert.strictEqual(sec.second, 1, "1 second")
+assert.strictEqual(second.second, 1, "1 second")
+assert.strictEqual(seconds.second, 1, "1 second")
